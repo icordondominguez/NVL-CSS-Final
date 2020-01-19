@@ -1,0 +1,8 @@
+He organizado la estrucuta del proyecto en 3 divs: header, contenedor y footer, para mas adelante intentar hacer esta pagina responsive.
+
+En el header simplemente he añadido el icono de la web flotado a la izquierda. He añadido la clase header a este div para poder colocarlo como primer elemento de la pagina.
+En el footer he añadido el logo de copyright con una referencia a la página de donde he sacado las noticias.
+En el contenedor he metido las 3 columnas que se pedían donde cada columna lateral tiene un ancho de 20% y una altura de 100% respecto al header y al footer.
+Las columnas están flotadas a la izquierda y el tamaño siempre está definido con porcentajes para facilitar mas adelante el diseño responsive.
+La columna central contiene divs, todos con una clase noticia con la cual coloco los elementos uno debajo de otro y le doy los estilos necesarios, de tal manera que solo hace falta introducir el titulo de la noticia, la fecha y la imagen y ya se vería de manera correcta.
+He utilizado el selector "div.columna2 div:nth-child(1)" para seleccionar solo el primer div de la columna central ya que esta tiene un padding top distinto al resto de div de esta columna.

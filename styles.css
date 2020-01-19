@@ -1,80 +1,94 @@
-html, body{
-	height:100%;
+body{
+	width: 100%;
+	height: 100%;
 	margin: 0;
-	display: block;
+	padding: 0;
+}
+.header{
+	width: 100%;
+	height: 8%;
+	text-align: center;
+	color: white;
+	border-bottom: 1px solid black;
 }
 
-.footer {
+.header img{
+	padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    float: left;
+    height: 50%;
+}
+
+.footer{
+	width: 100%;
+	height: 5%;
 	position: fixed;
 	left: 0;
 	bottom: 0;
-	width: 100%;
-	height: 5%;
-	background-color: red;
-	color: white;
 	text-align: center;
+	border-top: 1px solid black;
 }
 
-.header {
-	position: fixed;
-	left: 0;
-	top: 0;
+.contenedor{
 	width: 100%;
-	height: 5%;
-	background-color: red;
-	color: white;
-	text-align: center;
+	height: 87%;
 }
 
-#columna1{
+.columna1{
 	width: 20%;
-    height: 90%;
-    padding-top: 4%;
-    background-color: #D8D8D8;
-    display: inline-block;
-    float: left;
-}
-
-#columna2{
-	width: 59%;
-    height: 90%;
-    padding-top: 4%;
-    background-color: #D8D8D8;
-    display: inline-block;
-    float: left;
-    margin: 0% 0.5% 0% 0.5%;
-    overflow: scroll;
-}
-
-#columna3{
-	width: 20%;
-    height: 90%;
-    padding-top: 4%;
-    background-color: #D8D8D8;
-    display: inline-block;
-    float: left;
-}
-
-.noticia{
-	width: 100%;
-	display: inline-block;
-	padding: 1% 1% 1% 1%;
-}
-
-.fecha{
-	font-size: 0.8em;
-	color: rgba(0,0,0,.5);
-}
-
-img{
+	height: 100%;
+	border-right: 1px solid black;
 	float: left;
-	padding-right: 2%;
 }
 
-h2{
-	font-size: 30px;
+.columna2{
+	width: 60%;
+	height: 100%;
+	border-right: 1px solid black;
+	float: left;
+	overflow-y: scroll;
 }
 
-.titular{
-	padding: 0% 2% 0% 2%;
+div.columna2 div:nth-child(1){
+	padding-top: 1%;
 }
+
+.columna3{
+	width: 19%;
+	height: 100%;
+	float:left;
+}
+.columna3 p{
+	text-align: center;
+	margin: 0;
+    padding: 2% 2% 0% 2%;
+}
+
+.columna1,.columna3 h2{
+	text-align: center;
+}
+
+.noticia {
+	padding: 0% 1% 1% 1%;
+	width: 98%;
+	display: inline-block;
+}
+
+.noticia img{
+	padding-right: 1%;
+	float: left;
+	width: 35%;
+	height: 25%;
+}
+
+.columna1 p{
+	text-align: center;
+	margin: 0;
+    padding: 2% 2% 0% 2%;
+}
+
+.destacado{
+	font-weight: bold;
+}
+
